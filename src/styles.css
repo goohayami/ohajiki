@@ -1,0 +1,109 @@
+
+  body {
+    font-family: sans-serif;
+    background-color: rgb(73, 224, 73);
+    padding: 52px 16px;
+  }
+
+  button {
+    width: 460px;
+    height: 100px;
+    font-size:60px;
+    border-radius: 12px;
+    border: solid green;
+   }
+
+   button:hover {
+     background-color:tomato;
+     cursor: pointer;
+   }
+
+  /* 1列目のおはじき */
+  .addOnline {
+    display: flex;
+    margin: 0;
+    padding: 6px;
+  }
+
+  .ohajiki {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 50px;
+    border: 1px solid red;
+    margin: 10px 6px;
+    padding: 0;
+  }
+
+  .new-circle {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 50px;
+    border: 1px solid red;
+    margin: 10px 6px;
+    padding: 0;
+  }
+
+  /* 2列目のおはじき*/
+  .addOnline2 {
+    display: flex;
+    margin: 0;
+    padding: 6px;
+  }
+
+  .ohajiki2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50px;
+    border: 1px solid rgb(48, 4, 90);
+    margin: 10px 6px;
+    padding: 0;
+  }
+
+  .new-circle2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50px;
+    border: 1px solid rgb(48, 4, 90);
+    margin: 10px 6px;
+    padding: 0;
+  }
+
+  /* 計算式の横並び */
+  .amountRB {
+    display: flex;
+    text-align: center;
+    /* width: 10px;
+  height: 50px; */
+  }
+
+  /* ＋の記号 */
+  h1 {
+    margin: 0 12px;
+    padding-top: 10px;
+  }
+
+  /* テキストボックスの中のフォント指定 */
+  input,
+  select,
+  textarea {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 70px;
+  }
+
+  
+  .rezultA {
+    width: 160px;
+    height: 82px;
+    font-size: 80px;
+    text-align: center;
+    background-color: skyblue;
+    border: 1px solid rgb(48, 4, 90);
+    padding-bottom: 20px;
+  }
+}
